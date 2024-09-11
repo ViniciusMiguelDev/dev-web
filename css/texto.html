@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Texto</title>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <style>
+        /* ... */
+        * {
+            margin: 0;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        p {
+            /*Valores padrao*/
+            font-size: 1em;
+            font-size: 100%;
+            font-size: 16px;
+            font-size: 12pt;
+
+            /*valores absolutos*/
+            font-size: 100px; /*pixel*/
+            font-size: 72pt; /*pontos*/
+            font-size: 1in; /*polegadas*/
+
+            /*valores relativos*/
+            font-size: 2.2em;
+            font-size: 2.2rem;
+            font-size: 50vh;
+            font-size: 10vw;
+
+            font-family: monospace;
+            font-family: Georgia, serif;
+            font-family: verdana, sans-serif;
+            font-family: cursive;
+
+            font-weight: 100;
+            font-weight: bold;
+            font-style: italic;
+            text-transform:uppercase;
+            text-decoration:underline red;
+            word-spacing: 50px;
+            letter-spacing: 20px;
+            line-height: 3rem;
+            text-align: right;
+        }
+        .botao {
+            font-size: 28px;
+            text-decoration: none;
+            padding: 10px 30px;
+            border-radius: 25px;
+        }
+        .destaque {
+            color: white;
+            background-color: red;
+            box-shadow: 2px 2px 1px 1px #000;
+        }
+        
+        .destaque:hover {
+            background-color: white;
+            color: greenyellow;
+        }
+
+        .destaque:active {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p>
+            Que texto
+            <br>legal!!!
+        </p>
+    </div>
+    <a href="#" class="botao destaque">Google</a>
+</body>
+
+</html>

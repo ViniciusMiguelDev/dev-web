@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Especificidade CSS</title>
+    <style>
+        /* https://developer.mozilla.org/pt-BR/docs/Web/CSS/Specificity */
+        /*
+        Em linhas gerais...
+        1. Regra com !important
+        2. Seletores mais especificos
+        3. ultima regra processada (empate)
+        */
+        p {
+            background-color: #aaa;
+            font-weight: bold;
+            font-size: 50px;
+        }
+        .observacao {
+            background-color: #555;
+            border: dashed 5px red;
+            padding: 20px;
+            color: red;
+        }
+        p.observacao {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <p class='observacao'>Olha essa observação!!!!</p>
+</body>
+
+</html>
