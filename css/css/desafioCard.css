@@ -1,0 +1,55 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Objetivo {
+    margin-left: 45px;
+}
+.content {
+    height: 350px;
+}
+.curso {
+    display: inline-block;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 20px;
+    border: solid 1px #CCC;
+    height: 300px;
+    width: 260px;
+    margin: 5px 20px;
+    padding: 5px;
+    vertical-align: top;
+}
+.curso img {
+    height: 50%;
+    width: 100%;
+}
+.curso-info {
+    padding: 10px;
+    height: 90px;
+    overflow: hidden;
+}
+.curso-info h4{
+    font-size: 1.4em;
+    font-weight: 100;
+    margin: 0px;
+}
+.curso-info h4, p{
+    text-align: left;
+    font-size: 22px;
+    font-weight: 545;
+}
+.curso-info p {
+    font-size: 17px;
+    font-weight: 549;
+}
+.curso-preco {
+    float: right;
+    padding: 10px;
+}
+.preco-de{
+    color: firebrick;
+    text-decoration: line-through;
+}
+.preco-por {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: green;
+}
