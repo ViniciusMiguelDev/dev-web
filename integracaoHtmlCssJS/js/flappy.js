@@ -31,4 +31,16 @@ function ParDeBarreiras(altura, abertura, x) {
         this.inferior.setAltura(alturaInferior)
     }
     this.getX = () => parseInt(this.elemento.style.left.split('px')[0])
+    this.setX = () => this.elemento.style.left = `${x}px`
+    this.getLargura = () => this.elemento.clientWidth
+
+    this.sortearAbertura()
+    this.setX(x)
+}
+
+function Barreiras(altura, largura, abertura, espaco, notificarPonto)  {
+  this.pares = [
+    new ParDeBarreiras(altura, abertura, largura),
+    new ParDeBarreiras(altura, abertura, largura + espaco)
+  ]
 }
