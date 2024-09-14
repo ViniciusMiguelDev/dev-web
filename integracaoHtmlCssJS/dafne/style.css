@@ -215,10 +215,12 @@ footer p {
         width: 60vw;
     }
     .topicoA {
-        margin-bottom: 2px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
     }
     .topicoC {
         margin-top: 0px;
+        padding-bottom: 0px;
     }
     .contato {
         margin-top: 12rem;
@@ -228,7 +230,7 @@ footer p {
         width: 50px;
     }
     footer {
-        height: 5.5rem;
+        height: 4rem;
         text-align: center;
     }
   }
