@@ -176,26 +176,31 @@ footer p {
         padding: 0rem;
       }
     .perfil {
+        display: flex;
+        flex-direction: column;
         width: 100vw;
-        height: 55vh;
+        height: 100vh;
         justify-content: space-evenly;
     }
     .perfil h3 {
-        height: 50vh;
-        width: 32vw;
+        margin: .5rem;
+        height: 20vh;
+        width: 90vw;
         font-size: 1.2rem;
         padding-left: 5px;
     }
     .perfil p {
-        height: 50vh;
-        width: 35vw;
+        margin: .5rem;
+        height: 40vh;
+        width: 90vw;
         font-size: .9rem;
         text-align: left;
         padding-left: 5px;
     }
     .perfil img {
-        height: 50vh;
-        width: 25vw;
+        margin: .5rem;
+        height: 40vh;
+        width: 90vw;
     }
     .habilidades {
         height: 40vh;
@@ -251,6 +256,8 @@ footer p {
         padding: 1rem;
       }
     .perfil {
+        display: flex;
+        flex-direction: row;
         width: 100vw;
         height: 50vh;
         justify-content: space-evenly;
@@ -314,12 +321,12 @@ footer p {
     .perfil h3 {
         height: 30vh;
         width: 28vw;
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
     .perfil p {
         height: 30vh;
         width: 33vw;
-        font-size: 1.6rem;
+        font-size: 1.1rem;
         padding-left: .8rem;
     }
     .perfil img {
@@ -379,12 +386,12 @@ footer p {
     .perfil h3 {
         height: 30vh;
         width: 28vw;
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     .perfil p {
         height: 30vh;
         width: 33vw;
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         padding-left: .8rem;
     }
     .perfil img {
