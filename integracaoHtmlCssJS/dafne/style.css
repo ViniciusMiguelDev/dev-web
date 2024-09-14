@@ -19,7 +19,6 @@ header {
   height: 13vh;
   align-items: center;
   border: 1px solid black;
-  box-shadow: rgba(149, 157, 165, 0.497) 0px 8px 24px;
 }
 header,
 ul {
@@ -29,11 +28,13 @@ a {
   text-decoration: none;
   font-weight: bold;
   font-size: 1.3rem;
+  
 }
 .caixa-logo img {
   width: 10.1rem;
   height: 10.1rem;
   padding: 1rem;
+  
 }
 ul {
   list-style: none;
@@ -41,13 +42,12 @@ ul {
 li {
   margin: 0px 3rem 0px 0px;
 }
-.main {
-  background-color: rgb(218, 217, 217);
-}
 ;
 .main {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     width: 300px;
     height: 300px;
+    background-color: rgb(218, 217, 217);
 }
 .nome {
     border: 2px solid black;
@@ -77,16 +77,19 @@ li {
     width: 30vw;
     font-size: 1.1rem;
     font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .perfil h3 {
     text-align: left;
     padding: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .perfil img {
     display: inline-block;
     height: 30vh;
     width: 25%;
     border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .habilidades {
@@ -96,6 +99,7 @@ li {
     justify-content: space-evenly;
     background-color: skyblue;
     height: 70vh;
+    
 }
 .centrohobbies {
     padding-top: .5rem;
@@ -103,6 +107,7 @@ li {
     height: 65vh;
     width: 50%;
     background-color: pink;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .topicoA {
     height: 20vh;
@@ -123,6 +128,7 @@ li {
 .contato {
     text-align: center;
     background-color: pink;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   }
 
 .contato img {
@@ -138,6 +144,7 @@ footer {
   width: 100vw;
   height: 7vh;
   text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 footer p {
