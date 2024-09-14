@@ -194,13 +194,13 @@ footer p {
         width: 25vw;
     }
     .habilidades {
-        height: 70vh;
+        height: 60vh;
         padding: 1rem;
     }
     .centrohobbies {
         margin: 1rem 0rem 15rem 0rem;
         width: 95vw;
-        height: 150vh;
+        height: 130vh;
     }
     .topicoA h2, .topicoC h2 {
         font-size: 1.2rem;
@@ -211,7 +211,7 @@ footer p {
         width: 70vw;
     }
     .topicoA {
-        margin-bottom:3.5rem;
+        margin-bottom:1.5rem;
     }
     .contato {
         margin-top: 12rem;
