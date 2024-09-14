@@ -1,0 +1,323 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+  color: rgba(0, 0, 0, 0.63);
+}
+
+body {
+    background-color: skyblue;
+    width: 99.9%; 
+    height: 100%;
+    overflow-x: hidden;
+}
+header {
+    justify-content: space-evenly;
+    justify-self: center;
+  background-color: skyblue;
+  height: 13vh;
+  align-items: center;
+  border: 1px solid black;
+  box-shadow: rgba(149, 157, 165, 0.497) 0px 8px 24px;
+}
+header,
+ul {
+  display: flex;
+}
+a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.caixa-logo img {
+  width: 10.1rem;
+  height: 10.1rem;
+  padding: 1rem;
+}
+ul {
+  list-style: none;
+}
+li {
+  margin: 0px 3rem 0px 0px;
+}
+.main {
+  background-color: rgb(218, 217, 217);
+}
+;
+.main {
+    width: 300px;
+    height: 300px;
+}
+.nome {
+    border: 2px solid black;
+    align-content: center;
+    height: 30vh;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: skyblue;
+}
+.descricao {
+    border: 2px solid black;
+    align-content: center;
+    text-align: left;
+    height: 30vh;
+    background-color: skyblue;
+}
+.perfil {
+    height: 35vh;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.perfil p {
+    padding-left: 5%;
+    width: 30vw;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.perfil h3 {
+    text-align: left;
+    padding: 1.5rem;
+}
+.perfil img {
+    display: inline-block;
+    height: 30vh;
+    width: 25%;
+    border: 2px solid black;
+}
+
+.habilidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: skyblue;
+    height: 70vh;
+}
+.centrohobbies {
+    padding-top: .5rem;
+    padding-left: 2.5rem;
+    height: 65vh;
+    width: 50%;
+    background-color: pink;
+}
+.topicoA {
+    height: 20vh;
+    width: 30vw;
+}
+.topicoC {
+    width: 30vw;
+}
+.comidas {
+    display: flex;
+    flex-direction: column;
+    list-style: square;
+}
+.comidas li {
+    padding-bottom: 0.5rem;
+}
+
+.contato {
+    text-align: center;
+    background-color: pink;
+  }
+
+.contato img {
+    width: 5%;
+  margin: 0.5rem;
+}
+
+footer {
+    padding: 10px 0px;
+    background-color: skyblue;
+  color: rgb(0, 0, 0);
+  bottom: 0;
+  width: 100vw;
+  height: 7vh;
+  text-align: center;
+}
+
+footer p {
+    align-items: center;
+    justify-content: center;
+    padding: 0.1rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+@media screen and (min-width: 479px) {
+    body {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+    header {
+        width: 100vw;
+    }
+    header a{
+        font-size: 1rem;
+    }
+    .caixa-logo img {
+        width: 7rem;
+        height: 7rem;
+        padding: 1rem;
+      }
+    .perfil {
+        width: 100vw;
+        height: 50vh;
+        justify-content: space-evenly;
+    }
+    .perfil h3 {
+        height: 45vh;
+        width: 30vw;
+    }
+    .perfil p {
+        height: 45vh;
+        width: 35vw;
+    }
+    .pefil .descricao {
+        height: 40vh;
+        width: 30vw;
+    }
+    .perfil img {
+        height: 45vh;
+    }
+    .centrohobbies {
+        margin: 1rem 0rem 15rem 0rem;
+        width: 95vw;
+        height: 100vh;
+    }
+    .topicoA {
+        margin-bottom: 6rem;
+    }
+    .contato {
+        margin-top: 12rem;
+        padding: 1rem;
+    }
+    .contato img {
+        width: 50px;
+    }
+  }
+
+  @media screen and (min-width: 767px) {
+    body {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+    header {
+        width: 100vw;
+    }
+    header a{
+        font-size: 2.3rem;
+    }
+    .caixa-logo img {
+        width: 15rem;
+        height: 15rem;
+        padding: 1rem;
+      }
+    .perfil {
+        width: 100vw;
+        height: 50vh;
+        justify-content: space-evenly;
+    }
+    .perfil h3 {
+        height: 30vh;
+        width: 28vw;
+        font-size: 2.5rem;
+    }
+    .perfil p {
+        height: 30vh;
+        width: 33vw;
+        font-size: 1.6rem;
+        padding-left: .8rem;
+    }
+    .perfil img {
+        height: 30vh;
+        width: 35vw;
+    }
+    .habilidades {
+        height: 55vh;
+    }
+    .centrohobbies {
+        margin: .3rem;
+        width: 70vw;
+        height: 50vh;
+    }
+    .topicoA {
+        margin-bottom: 0rem;
+    }
+    .topicoC {
+        margin-top: 0rem;
+    }
+    .contato {
+        margin-top: 0rem;
+        padding: 1rem;
+    }
+    .contato img {
+        width: 50px;
+    }
+  }
+  @media screen and (min-width: 1025px) {
+    body {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+    header {
+        width: 100vw;
+        justify-content: center;
+    }
+    header a{
+        font-size: 2rem;
+    }
+    .caixa-logo img {
+        position: absolute;
+        width: 10rem;
+        height: 10rem;
+        padding: 1rem;
+        left: 1rem;
+        top: -2.5rem;
+      }
+    .perfil {
+        width: 100vw;
+        height: 35vh;
+        justify-content: space-evenly;
+    }
+    .perfil h3 {
+        height: 30vh;
+        width: 28vw;
+        font-size: 2.5rem;
+    }
+    .perfil p {
+        height: 30vh;
+        width: 33vw;
+        font-size: 1.6rem;
+        padding-left: .8rem;
+    }
+    .perfil img {
+        height: 30vh;
+        width: 30vw;
+    }
+    .habilidades {
+        height: 70vh;
+    }
+    .centrohobbies {
+        margin: .3rem;
+        width: 70vw;
+        height: 65vh;
+    }
+    .topicoA {
+        margin-bottom: 0rem;
+    }
+    .topicoC {
+        margin-top: 0rem;
+    }
+    .contato {
+        margin-top: 0rem;
+        padding: 0rem;
+    }
+    .contato img {
+        width: 55px;
+    }
+  }
